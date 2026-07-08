@@ -1,0 +1,122 @@
+[
+  {
+    "skillId": 1,
+    "skillName": "Beginner Guitar Lessons",
+    "providerName": "Alex Martin",
+    "providerEmail": "alex@skillswap.com",
+    "price": 20,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Acoustic guitar classes for complete beginners.",
+    "image": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=600&q=80",
+    "category": "Music"
+  },
+  {
+    "skillId": 2,
+    "skillName": "Spoken English Practice",
+    "providerName": "Sara Hossain",
+    "providerEmail": "sara@skillswap.com",
+    "price": 10,
+    "rating": 4.6,
+    "slotsAvailable": 5,
+    "description": "Conversational English sessions for non-native speakers.",
+    "image": "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=600&q=80",
+    "category": "Language"
+  },
+  {
+    "skillId": 3,
+    "skillName": "Introduction to Python",
+    "providerName": "David Chen",
+    "providerEmail": "david@skillswap.com",
+    "price": 35,
+    "rating": 4.9,
+    "slotsAvailable": 8,
+    "description": "Learn the basics of programming with Python from scratch.",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80",
+    "category": "Programming"
+  },
+  {
+    "skillId": 4,
+    "skillName": "Watercolor Landscape Painting",
+    "providerName": "Elena Rostova",
+    "providerEmail": "elena@skillswap.com",
+    "price": 25,
+    "rating": 4.7,
+    "slotsAvailable": 4,
+    "description": "Master the blending and layering techniques of watercolor painting.",
+    "image": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=600&q=80",
+    "category": "Art & Design"
+  },
+  {
+    "skillId": 5,
+    "skillName": "Vinyasa Flow Yoga for All Levels",
+    "providerName": "Marcus Aureli",
+    "providerEmail": "marcus@skillswap.com",
+    "price": 15,
+    "rating": 4.5,
+    "slotsAvailable": 12,
+    "description": "A dynamic yoga session focusing on breath, alignment, and movement.",
+    "image": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=600&q=80",
+    "category": "Health & Fitness"
+  },
+  {
+    "skillId": 6,
+    "skillName": "French Pastry Masterclass",
+    "providerName": "Chloe Dubois",
+    "providerEmail": "chloe@skillswap.com",
+    "price": 45,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Bake perfect croissants, macarons, and tarts in this hands-on workshop.",
+    "image": "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&w=600&q=80",
+    "category": "Cooking"
+  },
+  {
+    "skillId": 7,
+    "skillName": "Digital Photography Essentials",
+    "providerName": "Ryan Brooks",
+    "providerEmail": "ryan@skillswap.com",
+    "price": 30,
+    "rating": 4.4,
+    "slotsAvailable": 6,
+    "description": "Understand shutter speed, aperture, ISO, and manual mode composition.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=600&q=80",
+    "category": "Photography"
+  },
+  {
+    "skillId": 8,
+    "skillName": "UI/UX Design Basics in Figma",
+    "providerName": "Aisha Rahman",
+    "providerEmail": "aisha@skillswap.com",
+    "price": 40,
+    "rating": 4.8,
+    "slotsAvailable": 7,
+    "description": "Design wireframes and interactive prototypes for web and mobile apps.",
+    "image": "https://images.unsplash.com/photo-1618788372246-79faff0c3742?auto=format&fit=crop&w=600&q=80",
+    "category": "Art & Design"
+  },
+  {
+    "skillId": 9,
+    "skillName": "Public Speaking Confidence",
+    "providerName": "Liam Gallagher",
+    "providerEmail": "liam@skillswap.com",
+    "price": 18,
+    "rating": 4.3,
+    "slotsAvailable": 10,
+    "description": "Overcome stage fright and deliver impactful presentations with ease.",
+    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?auto=format&fit=crop&w=600&q=80",
+    "category": "Personal Development"
+  },
+  {
+    "skillId": 10,
+    "skillName": "Crypto & Blockchain Fundamentals",
+    "providerName": "Satoshi Tanaka",
+    "providerEmail": "satoshi@skillswap.com",
+    "price": 50,
+    "rating": 4.7,
+    "slotsAvailable": 15,
+    "description": "Demystifying cryptocurrency networks, smart contracts, and Web3 trends.",
+    "image": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&w=600&q=80",
+    "category": "Finance & Business"
+  }
+]

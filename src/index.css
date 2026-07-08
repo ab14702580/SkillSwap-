@@ -1,0 +1,34 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+/* স্লাইডারের নিচের ব্যাকগ্রাউন্ডের সাথে ম্যাচ করার জন্য (প্রয়োজন অনুযায়ী পরিবর্তন করতে পারেন) */
+.mySwiper {
+  padding-bottom: 40px !important; /* ডটগুলোর জন্য নিচে একটু জায়গা রাখা */
+}
+
+/* সাধারণ/নিষ্ক্রিয় ডটের স্টাইল */
+.mySwiper .swiper-pagination-bullet {
+  width: 16px;
+  height: 5px;
+  background-color: #3b3f5c !important; /* হালকা অন্ধকার কালার */
+  opacity: 1;
+  border-radius: 9999px; /* সম্পূর্ণ রাউন্ডেড কর্নার */
+  transition: all 0.3s ease-in-out; /* অ্যানিমেশনের জন্য */
+}
+.swiper-pagination-bullet{
+
+  width: 16px !important;
+  height: 5px !important;
+  background-color: #3b3f5c !important; /* হালকা অন্ধকার কালার */
+  opacity: 1 !important;
+  border-radius: 9999px !important; /* সম্পূর্ণ রাউন্ডেড কর্নার */
+  transition: all 0.3s ease-in-out !important; /* অ্যানিমেশনের জন্য */
+  display: inline-block !important;
+}
+/* একটিভ স্লাইডের ডটের স্টাইল (যা লম্বা ও উজ্জ্বল হবে) */
+.mySwiper .swiper-pagination-bullet-active , .swiper-pagination-bullet-active {
+  display: inline-block;
+  width: 35px; /* একটিভ হলে ডটটি লম্বা হবে */
+  background-color: #a3b8cc !important; /* আপনার ইমেজের মতো হালকা উজ্জ্বল কালার */
+}
