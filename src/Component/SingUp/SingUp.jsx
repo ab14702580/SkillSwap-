@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link } from 'react-router';
 
 export default function SingUp() {
     return (
@@ -9,14 +9,14 @@ export default function SingUp() {
             <div className="w-full md:w-1/2 bg-[#020617] p-6 sm:p-12 md:p-16 lg:p-20 flex flex-col justify-between border-b md:border-b-0 md:border-r border-slate-900/50 h-1/2 md:h-full overflow-hidden">
 
                 {/* Top: Logo */}
-                <div className="flex items-center gap-3">
+                <Link to='/' className="flex items-center gap-3">
                     <div className="w-8 h-8 bg-indigo-600 rounded flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-600/20">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z" />
                         </svg>
                     </div>
                     <span className="font-semibold text-sm tracking-wide text-white uppercase">SkillSwap</span>
-                </div>
+                </Link>
 
                 {/* Middle/Bottom section: Header and Metrics */}
                 <div className="max-w-md mt-auto">
@@ -190,9 +190,9 @@ export default function SingUp() {
                     {/* Footer Navigation */}
                     <div className="text-center mt-6 text-xs text-slate-500">
                         Already have an account?{' '}
-                        <NavLink to="/login" className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors">
+                        <Link to="/login" className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors">
                             Sign in
-                        </NavLink>
+                        </Link>
                     </div>
 
                 </div>

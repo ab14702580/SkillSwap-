@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router";
+import { Link } from "react-router";
 
 
 
@@ -15,7 +15,7 @@ export default function Login() {
       <div className="w-full md:w-1/2 bg-[#020617] p-8 md:p-16 lg:p-24 flex flex-col justify-between border-b md:border-b-0 md:border-r border-slate-900">
         
         {/* Top: Logo */}
-        <div className="flex items-center gap-3">
+        <Link to='/' className="flex items-center gap-3">
           <div className="w-8 h-8 bg-indigo-600 rounded flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-600/20">
             {/* Grid Icon representation */}
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor" className="w-5 h-5">
@@ -23,7 +23,7 @@ export default function Login() {
             </svg>
           </div>
           <span className="font-semibold text-lg tracking-wide text-white">SkillSwap</span>
-        </div>
+        </Link>
 
         {/* Middle: Content */}
         <div className="my-auto py-12 md:py-0 max-w-md">
@@ -148,9 +148,9 @@ export default function Login() {
           {/* Footer Sign Up link */}
           <div className="text-center mt-8 text-sm text-slate-500">
             Don't have an account?{' '}
-            <NavLink to="/signUp" className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors">
+            <Link to="/signUp" className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors">
               Sign up
-            </NavLink>
+            </Link>
           </div>
 
         </div>

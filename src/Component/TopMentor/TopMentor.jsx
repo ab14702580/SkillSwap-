@@ -6,6 +6,7 @@ import { Autoplay, Pagination } from 'swiper/modules';
 // Swiper styles অবশই ইম্পোর্ট করে নিবেন আপনার প্রজেক্টে
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { Link } from 'react-router';
 
 const TopMentor = () => {
   const providers = [
@@ -165,9 +166,9 @@ const TopMentor = () => {
                     </div>
                   </div>
 
-                  <button className="w-full bg-[#5025D9] hover:bg-[#6333F2] text-white text-xs font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-1.5 transition-colors duration-200">
+                  <Link to={`/singlePage/${provider.id}`} className="w-full bg-[#5025D9] hover:bg-[#6333F2] text-white text-xs font-bold py-3 px-4 rounded-lg flex items-center justify-center gap-1.5 transition-colors duration-200">
                     Book Session <span>→</span>
-                  </button>
+                  </Link>
                 </div>
 
               </div>
@@ -178,9 +179,9 @@ const TopMentor = () => {
 
       {/* ফুটার নেভিগেশন ও কাস্টম ডটস */}
       <div className="flex flex-col items-center gap-4">
-        <button className="text-sm font-semibold text-gray-400 hover:text-white transition-colors flex items-center gap-2 group">
+        <Link to='/category' className="text-sm font-semibold text-gray-400 hover:text-white transition-colors flex items-center gap-2 group">
           View All Providers <span className="transition-transform group-hover:translate-x-1">→</span>
-        </button>
+        </Link>
         
         {/* Swiper এর নিজস্ব ডটস এখানে রেন্ডার হবে যা image_3a1aff.png এর ডটসের মতো কাজ করবে */}
         <div className="custom-swiper-pagination flex justify-center gap-2 mt-2"></div>

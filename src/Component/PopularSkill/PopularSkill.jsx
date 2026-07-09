@@ -1,7 +1,8 @@
 import { Star } from 'lucide-react';
 import { use } from 'react';
+import { Link } from 'react-router';
 
-const skillsData = fetch('/skillData.json').then(res => res.json())
+const skillsData = fetch('/skillData.json').then(res => res.json());
 
 export default function PopularSkills() {
 
@@ -74,9 +75,9 @@ export default function PopularSkills() {
                   <span className="text-xl font-bold tracking-tight text-slate-200">
                     ${skill.price}
                   </span>
-                  <button className="bg-[#1e293b] hover:bg-[#2e3e57] text-slate-200 text-xs font-bold px-4 py-2 rounded-md transition-colors duration-200">
+                  <Link to={`/singlePage/${skill.skillId}`} className="bg-[#1e293b] hover:bg-[#2e3e57] text-slate-200 text-xs font-bold px-4 py-2 rounded-md transition-colors duration-200">
                     View Details
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>
